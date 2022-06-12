@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 1% 2%;
+    display: flex;
+    background: grey;
+}
+
+header h3 {
+    margin-right: 2rem;
+    color: white;
+}
+
+.nav {
+    padding: 2px;
+    flex-grow: 1;
+}
+
+.nav-lists {
+    margin: 0;
+    color: white;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+
+
+nav ul li:nth-of-type(6) {
+    margin-left: auto;
+}
+
+nav ul li:nth-of-type(1) {
+    margin-left: auto;
+}
